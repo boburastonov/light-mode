@@ -1,4 +1,4 @@
-const sliderBtn = document.querySelector(".slider");
-sliderBtn.addEventListener("click", () => {
+const modeSliderBtn = document.querySelector(".slider");
+modeSliderBtn.addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
 });
